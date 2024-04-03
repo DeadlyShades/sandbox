@@ -2,8 +2,33 @@
 <html>
   <head>
     <title>This is the title of the webpage!</title>
+    <style>
+      body {
+        background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/10/Cool-hd-wallpaper.jpg'); /* Set background image */
+        background-size: cover; /* Cover the entire background */
+        background-position: center; /* Center the background image */
+        font-family: Arial, sans-serif; /* Set font */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+      }
+      
+      .container {
+        width: 80%; /* Set width of the container */
+        margin: 0 auto; /* Center the container horizontally */
+        background-color: rgba(255, 255, 255, 0.7); /* Set background color of the container with opacity */
+        padding: 20px; /* Add padding */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+      }
+
+      p {
+        color: #333; /* Set paragraph color */
+        line-height: 1.6; /* Set line height */
+      }
+    </style>
   </head>
   <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+    <div class="container">
+      <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+    </div>
   </body>
 </html>
